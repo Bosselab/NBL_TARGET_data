@@ -1,1 +1,6 @@
 Only High Risk TARGET IDs are used. As of 2023 it is 126 patients.
+GTEX RNA expression for samples were downloaded from GTEX (in TPM and not log TPM)
+TARGET is log2TPM and hence has to be converted to 2^TPM.
+TARGET RNA expression was downloaded from here: 
+https://xenabrowser.net/datapages/?dataset=TumorCompendium_v11_PolyA_hugo_log2tpm_58581genes_2020-04-09.tsv&host=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443
+
